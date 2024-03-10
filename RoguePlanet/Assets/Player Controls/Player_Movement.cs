@@ -20,7 +20,6 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
         // Velocity_Move();
-        Debug.Log("Velocity: " + rb.velocity);
         Force_Move();
     }
 
