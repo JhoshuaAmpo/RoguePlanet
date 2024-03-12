@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 [RequireComponent(typeof(Rigidbody2D),typeof(Collider2D))]
-public class CelestialBodyBehavior : MonoBehaviour
+public abstract class CelestialBodyBehavior : MonoBehaviour
 {
     public static List<CelestialBodyBehavior> celestialBodyBehaviors;
     public Rigidbody2D rb;
@@ -29,10 +29,18 @@ public class CelestialBodyBehavior : MonoBehaviour
         celestialBodyBehaviors.Remove(this);
     }
 
-    private void FixedUpdate() {
-        foreach(CelestialBodyBehavior cbb in celestialBodyBehaviors)
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(this.rb.mass < other.rigidbody.mass)
         {
-            if(cbb != this)
+            Destroy(gameObject);
+        }
+    }
+
+    protected void AttractLoop()
+    {
+        foreach (CelestialBodyBehavior cbb in celestialBodyBehaviors)
+        {
+            if (cbb != this)
             {
                 Attract(cbb);
             }
@@ -51,18 +59,7 @@ public class CelestialBodyBehavior : MonoBehaviour
         rbToAttract.AddForce(force);
     }
 
-    private void OnCollisionEnter2D(Collision2D other) {
-        if(this.rb.mass < other.rigidbody.mass)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    protected virtual void Behavior()
-    {
-        return;
-    }
-
+    protected abstract void Behavior();
     // private void OnDrawGizmosSelected() {
 
     //     foreach(CelestialBodyBehavior cbb in celestialBodyBehaviors)

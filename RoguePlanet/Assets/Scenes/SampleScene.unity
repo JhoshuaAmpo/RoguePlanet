@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 77731513}
+  uniData: {fileID: 0}
 --- !u!50 &77731513
 Rigidbody2D:
   serializedVersion: 4
@@ -304,7 +305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &292808546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,6 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 292808547}
+  uniData: {fileID: 0}
 --- !u!50 &292808547
 Rigidbody2D:
   serializedVersion: 4
@@ -480,6 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 325511167}
+  uniData: {fileID: 0}
 --- !u!50 &325511167
 Rigidbody2D:
   serializedVersion: 4
@@ -642,6 +645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 378539319}
+  uniData: {fileID: 0}
 --- !u!50 &378539319
 Rigidbody2D:
   serializedVersion: 4
@@ -790,7 +794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &482520021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 482520022}
+  uniData: {fileID: 0}
 --- !u!50 &482520022
 Rigidbody2D:
   serializedVersion: 4
@@ -952,7 +957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &497157087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 497157088}
+  uniData: {fileID: 0}
 --- !u!50 &497157088
 Rigidbody2D:
   serializedVersion: 4
@@ -1410,6 +1416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 522089952}
+  uniData: {fileID: 0}
 --- !u!1 &592506517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,6 +1579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
+  uniData: {fileID: 0}
 --- !u!1 &592932649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,6 +1878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 862740416}
+  uniData: {fileID: 0}
 --- !u!50 &862740416
 Rigidbody2D:
   serializedVersion: 4
@@ -2018,7 +2027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1006171927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2032,6 +2041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1006171928}
+  uniData: {fileID: 0}
 --- !u!50 &1006171928
 Rigidbody2D:
   serializedVersion: 4
@@ -2181,7 +2191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1043288510
 Transform:
   m_ObjectHideFlags: 0
@@ -2211,6 +2221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1043288514}
+  uniData: {fileID: 0}
 --- !u!58 &1043288512
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2372,6 +2383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1053549580}
+  uniData: {fileID: 0}
 --- !u!50 &1053549580
 Rigidbody2D:
   serializedVersion: 4
@@ -2520,7 +2532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1106972945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2534,6 +2546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1106972946}
+  uniData: {fileID: 0}
 --- !u!50 &1106972946
 Rigidbody2D:
   serializedVersion: 4
@@ -2696,6 +2709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1205919741}
+  uniData: {fileID: 0}
 --- !u!50 &1205919741
 Rigidbody2D:
   serializedVersion: 4
@@ -2858,6 +2872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1248755464}
+  uniData: {fileID: 0}
 --- !u!50 &1248755464
 Rigidbody2D:
   serializedVersion: 4
@@ -3045,7 +3060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1833951775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3059,6 +3074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1833951776}
+  uniData: {fileID: 0}
 --- !u!50 &1833951776
 Rigidbody2D:
   serializedVersion: 4
@@ -3207,7 +3223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2070605378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3221,6 +3237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2070605379}
+  uniData: {fileID: 0}
 --- !u!50 &2070605379
 Rigidbody2D:
   serializedVersion: 4
